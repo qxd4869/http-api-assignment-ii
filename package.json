@@ -1,0 +1,35 @@
+{
+  "name": "http-api-assignment-ii",
+  "version": "1.0.0",
+  "engines": {
+    "node": "8.4.0",
+    "npm": "5.3.0"
+  },
+  "description": "htttp-api-assignment-ii homework",
+  "main": "./src/server.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo 'complete'"
+  },
+  "keywords": [
+    "NPM",
+    "Node",
+    "Introduction"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qxd4869/http-api-assignment-ii.git"
+  },
+  "author": "Quang Dao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qxd4869/http-api-assignment-ii/issues"
+  },
+  "homepage": "https://github.com/qxd4869/http-api-assignment-ii#readme",
+  "devDependencies": {
+    "eslint": "^4.7.0",
+    "eslint-config-airbnb": "^15.1.0",
+    "eslint-plugin-import": "^2.7.0"
+  }
+}
